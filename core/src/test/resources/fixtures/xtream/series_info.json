@@ -1,0 +1,17 @@
+{
+  "seasons": [
+    {"season_number": 1, "name": "Temporada 1", "episode_count": 2, "cover": "https://img.example.test/s1.jpg"},
+    {"season_number": 2, "name": "Temporada 2", "episode_count": 1},
+    {"season_number": 3, "name": "Temporada anunciada sem episódios"}
+  ],
+  "info": {"name": "Série Exemplo", "cover": "https://img.example.test/serie.jpg", "plot": "Sinopse de exemplo para testes.", "genre": "Exemplo", "category_id": "5"},
+  "episodes": {
+    "1": [
+      {"id": "9001", "episode_num": 2, "title": "S01E02 Exemplo", "container_extension": "mkv", "season": 1, "info": {"duration_secs": 1500}},
+      {"id": "9000", "episode_num": 1, "title": "S01E01 Exemplo", "container_extension": "mp4", "season": 1, "info": {"plot": "Episódio de exemplo", "movie_image": "https://img.example.test/e1.jpg"}}
+    ],
+    "2": [
+      {"id": "9100", "episode_num": "1", "title": "S02E01 Exemplo", "container_extension": "mp4", "info": []}
+    ]
+  }
+}

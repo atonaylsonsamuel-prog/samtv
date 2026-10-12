@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ícone original SAM TV: tela arredondada com triângulo de reprodução em gradiente roxo→azul. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M32,36h44a6,6 0,0 1,6 6v24a6,6 0,0 1,-6 6h-44a6,6 0,0 1,-6 -6v-24a6,6 0,0 1,6 -6z"
+        android:strokeWidth="3"
+        android:fillColor="#10162A">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:type="linear"
+                android:startX="26" android:startY="36"
+                android:endX="82" android:endY="72"
+                android:startColor="#741BFF"
+                android:endColor="#1677FF" />
+        </aapt:attr>
+    </path>
+    <path android:pathData="M48,45L64,54L48,63Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="48" android:startY="45"
+                android:endX="64" android:endY="63"
+                android:startColor="#A020F0"
+                android:endColor="#1677FF" />
+        </aapt:attr>
+    </path>
+    <path
+        android:pathData="M44,78h20"
+        android:strokeWidth="3"
+        android:strokeColor="#741BFF"
+        android:strokeLineCap="round" />
+</vector>

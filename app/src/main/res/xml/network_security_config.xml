@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Muitos servidores IPTV ainda operam somente em HTTP. O sistema permite tráfego em texto
+  claro, MAS o aplicativo só o utiliza quando o usuário marca explicitamente
+  "Permitir conexão sem criptografia (HTTP)" na fonte. Essa checagem é feita em código
+  (OkHttpHttpClient, XtreamConnector, M3uConnector e PlaybackSourceProvider).
+  A validação de certificados TLS NUNCA é desativada: apenas as CAs do sistema são confiáveis.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

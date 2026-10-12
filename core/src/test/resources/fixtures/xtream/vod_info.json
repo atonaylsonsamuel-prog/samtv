@@ -1,0 +1,14 @@
+{
+  "info": {
+    "movie_image": "https://img.example.test/filme.jpg",
+    "plot": "Sinopse de exemplo para testes.",
+    "cast": "Elenco Exemplo",
+    "director": "Direção Exemplo",
+    "genre": "Exemplo",
+    "releasedate": "2020-05-01",
+    "duration_secs": 5400,
+    "rating": "7.5",
+    "backdrop_path": ["https://img.example.test/fundo.jpg"]
+  },
+  "movie_data": {"stream_id": 555, "name": "Filme Exemplo", "added": "1700000000", "category_id": "3", "container_extension": "mkv"}
+}

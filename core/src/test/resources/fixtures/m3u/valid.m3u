@@ -1,0 +1,8 @@
+#EXTM3U x-tvg-url="https://epg.example.test/guide.xml"
+# DADOS DE EXEMPLO PARA TESTES — não representam canais reais.
+#EXTINF:-1 tvg-id="exemplo.um" tvg-name="Exemplo Um" tvg-logo="https://img.example.test/um.png" group-title="Exemplos A",Exemplo Um
+https://stream.example.test/live/um.m3u8
+#EXTINF:-1 tvg-id="exemplo.dois" tvg-logo="https://img.example.test/dois.png" group-title="Exemplos A",Exemplo Dois
+https://stream.example.test/live/dois.ts
+#EXTINF:-1 tvg-id="exemplo.tres" group-title="Exemplos B" tvg-chno="7",Exemplo Três
+https://stream.example.test/live/tres.m3u8?token=abc123&quality=hd

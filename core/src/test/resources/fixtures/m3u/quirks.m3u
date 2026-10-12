@@ -1,0 +1,26 @@
+#EXTM3U
+# Fixture de casos difíceis (dados de exemplo)
+
+#EXTINF:-1 tvg-id='aspas.simples' group-title='Grupo, com vírgula',Canal Aspas Simples
+https://stream.example.test/a.m3u8
+#EXTINF:-1 tvg-name="Nome via atributo" group-title=SemAspas,
+https://stream.example.test/b.m3u8
+#EXTINF:-1,Somente Titulo
+https://stream.example.test/c.m3u8
+#EXTINF:-1 group-title="Grupo X",Entrada sem URL
+#EXTINF:-1 tvg-id="ok.depois",Depois da entrada incompleta
+https://stream.example.test/d.m3u8
+#EXTINF:-1,Esquema inválido
+ftp://stream.example.test/e.ts
+linha solta inválida
+#EXTGRP:Grupo via EXTGRP
+#EXTVLCOPT:http-user-agent=ExemploAgent/1.0
+#EXTVLCOPT:http-referrer=https://ref.example.test/
+#EXTINF:-1,Com cabeçalhos
+https://stream.example.test/f.m3u8
+#EXTINF:-1 tvg-id="ok.depois",Depois da entrada incompleta
+https://stream.example.test/d.m3u8
+#KODIPROP:inputstream=ignored
+#EXTINF:10.5 tvg-id="duracao",Duração decimal
+https://stream.example.test/g.mp4
+#EXTINF:-1 tvg-id="sem.final",Entrada final sem URL
